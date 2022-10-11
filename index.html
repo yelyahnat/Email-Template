@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+<style>
+ 	body,h1,h2,h3,h4,h5 {font-family: "Arial", sans-serif}
+ 	.w3-row{
+ 		width: 900px;
+ 	}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+	float: right;
+	color: #00aaff;
+}
+/* Thick HR line */
+hr.hrline {
+  border: 1px solid black;
+  width: 10%;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  height: 450px;
+}
+.row img {
+  width: 285px;
+  height: 250px;
+  object-fit: cover;
+}
+ 	.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+ 	.icons a img{
+ 		padding: 1px;
+ 		float: right;
+ 		margin-right: 50px;
+
+ 	}
+ 	.logo img {
+ 		padding: 1px;
+ 		margin-right: 100px;
+ 		margin-bottom: 50px;
+ 		height: 50px;
+
+ 	}
+ 	.terms p {
+ 		text-align: right;
+ 	}
+
+</style>
+</head>
+
+
+<body class="w3-light-grey">
+<a href="#">Trouble seeing this email?</a>
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:600px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+	<img src="img/logo.png">
+  <h5 class="w3-opacity"><b>Creative Blog #08</b></h5>
+  <p class="w3-opacity">October 11th 2022</p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries for Lifestyle -->
+<div class="w3-col l8 s12">
+	<img src="img/1.jpg">
+  <!-- Blog entry -->
+<div class="w3-card-3 w3-white">
+    <div class="w3-container">
+      
+       <h6 class="w3-opacity" style="text-align: left;">Lifestyle</h6><hr class="hrline">
+       <h3><b>SOLID REASONS TO AVOID WHITE</b></h3>
+    </div>
+
+    <div class="w3-container">
+      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. </p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+<!-- Blog entries for Fashion -->
+<div class="row">
+  <div class="column" style="text-align: right;">
+  	 <img src="img/2.jpg">
+  	 <!-- Blog entry -->
+    <div class="card">
+       <h6 class="w3-opacity" style="text-align: left;">Fashion</h6><hr class="hrline">
+       <h4 style="text-align: left;"><b>THE ULTIMATE GUIDE TO IMAGE</b></h4>
+       <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu ante lobortis, varius urna non, aliquet mi. Maecenas sed auctor felis. Donec faucibus placerat lectus, in facilisis nisl mollis at. Duis quis iaculis elit.</p>
+       <div class="w3-col m8 s12">
+          <p ><button class="w3-button w3-padding-medium w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+    </div>
+  </div>
+<!-- Blog entries for Food -->
+  <div class="column">
+  	 <img src="img/3.jpg">
+  	 <!-- Blog entry -->
+    <div class="card">
+       <h6 class="w3-opacity" style="text-align: left;">Food</h6><hr class="hrline">
+       <h4 style="text-align: left;"><b>TAKE THE STRESS OUT OF LOREM</b></h4>
+       <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu ante lobortis, varius urna non, aliquet mi. Maecenas sed auctor felis. Donec faucibus placerat lectus, in facilisis nisl mollis at. Duis quis iaculis elit.</p>
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-medium w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+
+ 
+ <!-- Grid -->
+<div class="w3-row">
+	<!-- Blog entries for Stories -->
+<div class="w3-col l8 s12">
+	<img src="img/4.jpg">
+  <!-- Blog entry -->
+<div class="w3-card-3 w3-white">
+    <div class="w3-container">
+      
+       <h6 class="w3-opacity" style="text-align: left;">Stories</h6><hr class="hrline">
+       <h3><b>STOP WASTING TIME AND START BLOG</b></h3>
+    </div>
+
+    <div class="w3-container">
+      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. </p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+<!-- Blog entries for Travel -->
+	<div class="row">
+  <div class="column" style="text-align: right;">
+  	 <img src="img/5.jpg">
+  	 <!-- Blog entry -->
+    <div class="card">
+       <h6 class="w3-opacity" style="text-align: left;">Travel</h6><hr class="hrline">
+       <h4 style="text-align: left;"><b>MIND BLOWING METHOD ON WHITE</b></h4>
+       <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu ante lobortis, varius urna non, aliquet mi. Maecenas sed auctor felis. Donec faucibus placerat lectus, in facilisis nisl mollis at. Duis quis iaculis elit.</p>
+       <div class="w3-col m8 s12">
+          <p ><button class="w3-button w3-padding-medium w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+    </div>
+  </div>
+<!-- Blog entries for Personal -->
+  <div class="column">
+  	 <img src="img/6.jpg">
+  	 <!-- Blog entry -->
+    <div class="card">
+       <h6 class="w3-opacity" style="text-align: left;">Personal</h6><hr class="hrline">
+       <h4 style="text-align: left;"><b>NEVER LOSE YOUR LOREM AGAIN</b></h4>
+       <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu ante lobortis, varius urna non, aliquet mi. Maecenas sed auctor felis. Donec faucibus placerat lectus, in facilisis nisl mollis at. Duis quis iaculis elit.</p>
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-medium w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<!-- Grid -->
+<div class="w3-row">
+	<!-- Blog entries for Technology -->
+<div class="w3-col l8 s12">
+	<img src="img/7.jpg">
+  <!-- Blog entry -->
+<div class="w3-card-3 w3-white">
+    <div class="w3-container">
+      
+       <h6 class="w3-opacity" style="text-align: left;">Technology</h6><hr class="hrline">
+       <h3><b>BOOST YOUR EMAIL WITH THESE TIPS</b></h3>
+    </div>
+
+    <div class="w3-container">
+      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. </p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!-- Blog entries for Beauty -->
+	<div class="row">
+  <div class="column" style="text-align: right;">
+  	 <img src="img/8.jpg">
+  	 <!-- Blog entry -->
+    <div class="card">
+       <h6 class="w3-opacity" style="text-align: left;">Beauty</h6><hr class="hrline">
+       <h4 style="text-align: left;"><b>SIMPLE POST FOR SMART BLOG</b></h4>
+       <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu ante lobortis, varius urna non, aliquet mi. Maecenas sed auctor felis. Donec faucibus placerat lectus, in facilisis nisl mollis at. Duis quis iaculis elit.</p>
+       <div class="w3-col m8 s12">
+          <p ><button class="w3-button w3-padding-medium w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+    </div>
+  </div>
+<!-- Blog entries for Sports -->
+  <div class="column">
+  	 <img src="img/9.jpg">
+  	 <!-- Blog entry -->
+    <div class="card">
+       <h6 class="w3-opacity" style="text-align: left;">Sports</h6><hr class="hrline">
+       <h4 style="text-align: left;"><b>NEVER LOSE YOUR LOREM AGAIN</b></h4>
+       <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu ante lobortis, varius urna non, aliquet mi. Maecenas sed auctor felis. Donec faucibus placerat lectus, in facilisis nisl mollis at. Duis quis iaculis elit.</p>
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-medium w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+    </div>
+  </div>
+</div>
+
+  <hr>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+	<footer >
+		<div class="icons">
+			<a href="#"><img src="img/linkdin.png"></a>
+			<a href="#"><img src="img/instagram.png"></a>
+			<a href="#"><img src="img/pintrest.png"></a>
+			<a href="#"><img src="img/twitter.png"></a>
+			<a href="#"><img src="img/facebook.png"></a>
+		</div>
+		<br>
+		<hr>
+			<p style="text-align: center;"> ⓒMiley INC. | 48 Gartner Rd.Euless | Michigan, 18348, United States</p>
+		<div class="terms">
+			<p><a href="#">Privacy Policy |  Terms and Conditions</a></p>
+		</div>
+		<hr>
+		<div>
+		<p style="text-align:center; position: right;">If you have any questions, please contact us<a href="#">mail@yoursite.com</a>
+		<br>
+			<p style="text-align:center;">Unsubscribe from our mailing list.</p>
+		<div class="logo">
+			<a href="#"><img src="img/play-store.png"> </a>
+			<a href="#"><img src="img/app-store.png"> </a>
+		</div>
+</footer>
+
+</body>
+</html>
